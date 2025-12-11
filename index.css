@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     font-weight: 500;
-    margin: 0 70px;
+    margin: 0 200px;
 }
 
 .header {
@@ -12,7 +12,7 @@ body {
 }
 
 .logo {
-font-weight: lighter;
+    font-weight: lighter;
 }
 
 .nav ul {
@@ -29,4 +29,44 @@ font-weight: lighter;
 
 .nav a:hover {
     color: blue;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.hero-content h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.hero-content p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.hero-image {
+    max-width: 450px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 13px 23px;
+    border-radius: 7px;
+    background: blue;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;;
+}
+
+.btn:hover{
+    background-color: darkblue;
 }
