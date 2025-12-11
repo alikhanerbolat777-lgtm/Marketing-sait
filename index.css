@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    margin: 0 70px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+font-weight: lighter;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: blue;
+}
