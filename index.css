@@ -144,7 +144,57 @@ body {
     margin-bottom: 50px;
 }
 
-.about .btn{
+.about .btn {
     text-decoration: none;
 }
 
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+.reviews-h3 {
+    font-size: 31px;
+}
+
+.review {
+    width: 250px;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.review img {
+    width: 70px;
+    max-width: 100%;
+    margin-bottom: 12px;
+}
+
+.review h2 {
+    font-size: 20px;
+    margin: 8px 0 4px;
+}
+
+.review span {
+    display: block;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 12px;
+}
+
+.review p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #444;
+}
