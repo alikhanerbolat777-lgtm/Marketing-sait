@@ -64,10 +64,11 @@ body {
     border: none;
     color: #fff;
     cursor: pointer;
-    transition: background-color 0.3s ease;;
+    transition: background-color 0.3s ease;
+    ;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: darkblue;
 }
 
@@ -83,13 +84,13 @@ body {
     width: 320px;
     padding: 20px 30px;
     border-radius: 12px;
-    box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
     transition: transform .3s ease, box-shadow .3s ease;
 }
 
 .pricing-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
 }
 
 .plan-title {
@@ -114,6 +115,36 @@ body {
     font-size: 18px;
 }
 
-.card-2{
+.card-2 {
     background: #d4e7ff;
 }
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.about__image {
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+}
+
+.about__title {
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.about__text {
+    font-size: 20px;
+    max-width: 300px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.about .btn{
+    text-decoration: none;
+}
+
